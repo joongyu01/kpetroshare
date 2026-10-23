@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T01:16:44.231Z",
+  "updatedAt": "2026-10-23T01:22:01.545Z",
   "items": [
     {
       "id": "GG11K812444",
@@ -14,12 +14,12 @@
           "url": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcExpr/index.do?rsrc_no=GG11K812444"
         },
         {
-          "label": "알리오플러스",
-          "url": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=1275"
-        },
-        {
           "label": "공유누리 추가 등록",
           "url": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcExpr/index.do?rsrc_no=BA10A0002007"
+        },
+        {
+          "label": "알리오플러스",
+          "url": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=1275"
         }
       ],
       "details": {
@@ -35,16 +35,34 @@
       "hours": "평일: 미개방 · 토요일: 07:00~19:00 · 일요일/공휴일: 07:00~19:00",
       "caution": "원문의 이용가능시간과 휴관일 안내가 서로 다릅니다. 방문 전 담당기관에 개방 여부를 확인해주세요.",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/233242/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcExpr/index.do?rsrc_no=GG11K812444"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "한국석유관리원 본사 주차장",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 백현동, 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "한국석유관리원 본사 진입로 및 주차장 주차 가능 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "이용요금: 무료"
+        },
+        "hours": "평일 : 개방안함 토요일 : 07:00 ~ 19:00 일요일 : 07:00 ~ 19:00 공휴일 : 07:00 ~ 19:00",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/faclt/C0215/1275/127520190103055045959_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=1275"
+        }
+      }
     },
     {
       "id": "GG11K811541",
-      "name": "주차장",
+      "name": "한국석유관리원 미래기술연구소 주차장",
       "branch": "미래기술연구소",
       "type": "주차장",
       "url": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=7936",
@@ -56,24 +74,24 @@
         }
       ],
       "details": {
-        "phone": "",
-        "target": "",
-        "approval": "원문 확인",
-        "description": "시설 이용방법 및 안내 유선문의 장기주차 지양 및 연락처 게시 필수 대형차량 혹은 다수 차량 이용 시 사전 협의 (※전기차 충전장소없음) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
-        "notice": "",
-        "address": "충청북도 청주시 청원구 오창읍 양청3길 33",
+        "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소",
         "provider": "한국석유관리원",
-        "fee": "무료"
+        "phone": "",
+        "target": "전국민",
+        "fee": "무료",
+        "approval": "원문 예약조건 확인",
+        "description": "시설 이용방법 및 안내 유선문의 장기주차 지양 및 연락처 게시 필수 대형차량 혹은 다수 차량 이용 시 사전 협의 (※전기차 충전장소없음) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+        "notice": "이용요금: 무료"
       },
-      "hours": "",
+      "hours": "평일 : 개방안함 토요일 : 07:00~19:00 일요일 : 07:00~19:00 공휴일 : 07:00~19:00",
       "caution": "원문의 이용가능시간과 휴관일 안내가 서로 다릅니다. 방문 전 담당기관에 개방 여부를 확인해주세요.",
-      "detail_verified": false,
-      "verification": "공유누리 연계 목록 자동 확인",
+      "detail_verified": true,
+      "verification": "알리오플러스 상세 자동 확인",
       "image": {
-        "url": "https://www.eshare.go.kr/UserPortal/Upv/231798/fileDetail.do?file_sn=1&size=s",
+        "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215/faclt/7936/793620241112042247470_1&fleExt=jpg",
         "sourceUrl": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=7936"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2550440",
@@ -106,7 +124,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200206181756406.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109870?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2606316",
@@ -139,7 +157,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200210172411274.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109964?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2640897",
@@ -172,7 +190,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/2020021123222525.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003123442?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2559200",
@@ -205,7 +223,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200211214493.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109926?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2548659",
@@ -238,7 +256,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200206174445290.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109858?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2606516",
@@ -271,7 +289,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200207162158458.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109965?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2600445",
@@ -303,12 +321,30 @@
       "hours": "",
       "caution": "",
       "detail_verified": false,
-      "verification": "공유누리 연계 목록 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200211202630198.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109933?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "원심분리기",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 원심분리관 : 100mL X 4개 - 최대회전속도 : 2,000 RPM - 최대 R.C.F. 값 : 984 <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151016/101620241111033106524_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1016"
+        }
+      }
     },
     {
       "id": "CD01O2605724",
@@ -341,7 +377,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/2020021018121104.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109961?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2601101",
@@ -374,7 +410,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/2020021118392280.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109937?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2606119",
@@ -407,7 +443,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200210163715537.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109963?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2601302",
@@ -440,7 +476,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/2020021111445251.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109938?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2605318",
@@ -473,7 +509,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200206183147541.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109959?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2559830",
@@ -506,7 +542,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/2020021120484194.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109930?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2605523",
@@ -539,7 +575,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200210155817651.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109960?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2605922",
@@ -572,7 +608,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200210173838240.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109962?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2550053",
@@ -605,7 +641,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/202002061899261.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109868?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2606911",
@@ -638,7 +674,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200207165910673.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109967?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2606715",
@@ -671,7 +707,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/2020021095234101.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109966?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2546897",
@@ -704,7 +740,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/202002061704335.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109843?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2607109",
@@ -737,7 +773,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200207171927593.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109968?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2607304",
@@ -770,7 +806,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200207174331725.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109969?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O2558023",
@@ -803,7 +839,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/202002/20200211221042971.jpeg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202003109920?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0416784",
@@ -836,7 +872,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051010341460.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201905109109?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0416914",
@@ -869,7 +905,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051010393310.JPG",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201905099093?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O4046956",
@@ -902,7 +938,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051010499287.JPG",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202006254771?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O4047164",
@@ -935,7 +971,7 @@
         "url": "https://www.eshare.go.kr/images/common/cps001_004.png",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202006254772?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O4040518",
@@ -968,7 +1004,7 @@
         "url": "https://www.eshare.go.kr/images/common/cps001_004.png",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202006254739?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O4052579",
@@ -1001,7 +1037,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/20190510104154153.JPG",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202006254799?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0410038",
@@ -1034,7 +1070,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/20190509162140841.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201901249698?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "CD01O4046751",
@@ -1067,7 +1103,7 @@
         "url": "https://www.eshare.go.kr/images/common/cps001_004.png",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202006254770?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0418889",
@@ -1100,7 +1136,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201907/20190715205054554.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201907170930?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0426288",
@@ -1133,7 +1169,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201907/20190715205054554.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-202002062788?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0415131",
@@ -1166,7 +1202,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051011326187.JPG",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201901246403?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0418414",
@@ -1199,7 +1235,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201907/2019071216427202.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201907150876?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0418415",
@@ -1232,7 +1268,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201907/20190715115859482.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201907150875?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0414457",
@@ -1265,7 +1301,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051011714582.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201901246090?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0418416",
@@ -1298,7 +1334,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051011924461.JPG",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201907150874?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0418417",
@@ -1331,7 +1367,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201905/2019051011048448.JPG",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201907150873?cloudId=201812170463&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "BA05A0418582",
@@ -1364,7 +1400,7 @@
         "url": "https://www.zeus.go.kr/storage/images/equip/photo/201907/2019071216427202.jpg",
         "sourceUrl": "https://www.zeus.go.kr/eshare/read/Z-201907130856?cloudId=201806110281&access_token="
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P1839583",
@@ -1397,7 +1433,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281113/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P1839583"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P1153374",
@@ -1430,7 +1466,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281110/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P1153374"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P0328257",
@@ -1463,7 +1499,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281107/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P0328257"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P0138497",
@@ -1496,7 +1532,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281104/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P0138497"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P1942003",
@@ -1529,7 +1565,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281116/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P1942003"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P4555247",
@@ -1562,7 +1598,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281138/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P4555247"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P2100143",
@@ -1595,7 +1631,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281119/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P2100143"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P2300241",
@@ -1628,7 +1664,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281125/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P2300241"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P0020421",
@@ -1661,7 +1697,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281101/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P0020421"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P2346490",
@@ -1694,7 +1730,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281128/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P2346490"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P3856194",
@@ -1727,7 +1763,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281131/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P3856194"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P4243848",
@@ -1760,7 +1796,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281134/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P4243848"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P2200379",
@@ -1793,7 +1829,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281122/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P2200379"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O5708819",
@@ -1826,7 +1862,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281098/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O5708819"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O0757428",
@@ -1859,7 +1895,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281082/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O0757428"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O5253986",
@@ -1892,7 +1928,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281092/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O5253986"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P5003121",
@@ -1925,7 +1961,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281141/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P5003121"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N3706235",
@@ -1958,7 +1994,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281052/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N3706235"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N3947666",
@@ -1991,7 +2027,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281055/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N3947666"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N4155334",
@@ -2024,7 +2060,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281058/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N4155334"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N4414551",
@@ -2057,7 +2093,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281061/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N4414551"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N4600404",
@@ -2090,7 +2126,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281064/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N4600404"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N4714203",
@@ -2123,7 +2159,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281067/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N4714203"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N4909634",
@@ -2156,7 +2192,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281070/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N4909634"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O4749427",
@@ -2189,7 +2225,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281089/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O4749427"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O0922687",
@@ -2222,7 +2258,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281085/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O0922687"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O0627880",
@@ -2255,7 +2291,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281079/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O0627880"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N5511345",
@@ -2288,7 +2324,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281076/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N5511345"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N5314077",
@@ -2321,7 +2357,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281073/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N5314077"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18O5444605",
@@ -2354,7 +2390,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281095/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18O5444605"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18P5750144",
@@ -2387,7 +2423,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281144/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18P5750144"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ08K2023656",
@@ -2416,7 +2452,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282804/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGym/index.do?rsrc_no=HJ08K2023656"
@@ -2453,7 +2489,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281150/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18Q0532655"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ08K1103439",
@@ -2482,7 +2518,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282801/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcFacl/index.do?rsrc_no=HJ08K1103439"
@@ -2519,7 +2555,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281049/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N3519614"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ21N3423449",
@@ -2548,7 +2584,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283917/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21N3423449"
@@ -2581,7 +2617,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283922/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21N5247716"
@@ -2614,7 +2650,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283926/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O2337408"
@@ -2647,7 +2683,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283929/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O2636697"
@@ -2680,7 +2716,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283932/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O2815453"
@@ -2713,7 +2749,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283935/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O3116224"
@@ -2746,7 +2782,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283952/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O4438576"
@@ -2779,7 +2815,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283949/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O4045404"
@@ -2812,7 +2848,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283946/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O3845417"
@@ -2845,7 +2881,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283941/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O3543088"
@@ -2878,7 +2914,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283938/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O3252616"
@@ -2911,7 +2947,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282798/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ08K0226466"
@@ -2948,7 +2984,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281147/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18Q0242740"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ08J5756346",
@@ -2977,7 +3013,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282793/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ08J5756346"
@@ -3010,7 +3046,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282782/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ08J4741978"
@@ -3047,7 +3083,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281246/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N2724384"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N3022869",
@@ -3080,7 +3116,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281252/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N3022869"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N3326924",
@@ -3113,7 +3149,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281255/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N3326924"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N3513238",
@@ -3146,7 +3182,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281258/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N3513238"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N3651509",
@@ -3179,7 +3215,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281261/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N3651509"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N3827853",
@@ -3212,7 +3248,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281264/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N3827853"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N4000171",
@@ -3245,7 +3281,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281267/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N4000171"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N4126794",
@@ -3278,7 +3314,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281270/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N4126794"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ08J4211024",
@@ -3307,7 +3343,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282779/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ08J4211024"
@@ -3344,7 +3380,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281291/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N5044157"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N4927418",
@@ -3377,7 +3413,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281287/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N4927418"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N4512378",
@@ -3410,7 +3446,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281278/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N4512378"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI21N4337734",
@@ -3443,7 +3479,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281274/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI21N4337734"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ08J5433709",
@@ -3472,7 +3508,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/282786/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ08J5433709"
@@ -3509,7 +3545,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281046/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N3012139"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI17P0340840",
@@ -3542,7 +3578,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280907/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P0340840"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N2308982",
@@ -3575,7 +3611,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281037/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N2308982"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "GL09T3058441",
@@ -3607,12 +3643,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257807/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T3058441"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "플라스크형 히팅맨틀(Heating Mantle)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 온도 조절범위 : 상온 ~ +450 ℃ (단위 표시) - 용량 : 플라스크형, 1,000mL <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품 사용)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151013/101320241111032504295_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1013"
+        }
+      }
     },
     {
       "id": "GL09T3317485",
@@ -3644,12 +3698,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257810/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T3317485"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "건조오븐(강제순환식) (Forced-air Drying Oven)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 온도 사용범위 : 상온 ~ 250 ℃ (최대) - 내용적 : 105L <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151014/101420241111034052413_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1014"
+        }
+      }
     },
     {
       "id": "GL09T3728492",
@@ -3681,12 +3753,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257813/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T3728492"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "디지털 교반용 핫플레이트(Hot Plate)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 온도 조절범위 : 50 ~ 500 ℃ - RPM : 60 ~ 900 rpm - 플레이즈 사이즈 : 127mm x 178mm <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151015/101520241111023658766_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1015"
+        }
+      }
     },
     {
       "id": "GL09T3856546",
@@ -3699,10 +3789,6 @@
         {
           "label": "공유누리",
           "url": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T3856546"
-        },
-        {
-          "label": "알리오플러스",
-          "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1016"
         }
       ],
       "details": {
@@ -3723,7 +3809,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257816/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T3856546"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "GL09T4116065",
@@ -3755,12 +3841,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257819/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T4116065"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "자제도가니 (Porcelain Crucible)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 용량 (크기) : 100 mL 6개 ( 65mm(Φ) x 54mm (h) ) - 내열온도 : 1,000℃ <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151017/101720241111032347309_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1017"
+        }
+      }
     },
     {
       "id": "GL09T2911983",
@@ -3792,12 +3896,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257804/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T2911983"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "비커형 히팅맨틀(Heating Mantle)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 온도 사용범위 : 상온 ~ +450 ℃ (단위 표시) - 용량 : 비커, 1,000mL <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151012/101220241111030515649_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1012"
+        }
+      }
     },
     {
       "id": "GL09T4412489",
@@ -3829,12 +3951,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257822/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T4412489"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 혈압측정계",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 본사 혈압측정계 <이용절차> 1. 이용신청 : 알리오 플러스 예약 2. 이용승인 3. 평일 09:00 ~ 18:00 이용 가능 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00 ~ 18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151113/111320241221120336672_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1113"
+        }
+      }
     },
     {
       "id": "GL09T4809614",
@@ -3866,12 +4006,30 @@
       "hours": "평일: 10:00~12:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257828/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T4809614"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 러닝머신",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 러닝머신 <이용절차> 1. 이용신청 : 알리오 플러스 예약 2. 이용승인 3. 평일 10:00 ~ 12:00 이용 가능 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00~12:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151115/111520241221023011189_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1115"
+        }
+      }
     },
     {
       "id": "GL09T4952633",
@@ -3903,12 +4061,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257831/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T4952633"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 Canon 카메라",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "Canon 카메라 <이용절차> 1. 이용문의 : 아래 담당자 사전 문의 후 예약 요청 * 회사 행사 등으로 인하여 사용 전 문의 2. 이용 승인 3. 장비 및 물품 사용 * 분실 및 고장 등으로 인하여 시설 이용 전 신분증을 제출하여야 하며, 반납 시 신분증 분출 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00 ~ 18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151129/112920241221115359617_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1129"
+        }
+      }
     },
     {
       "id": "GL09T5125989",
@@ -3940,12 +4116,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257834/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T5125989"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 인바디",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 본사 인바디 <이용절차> 1. 이용신청 : 알리오 플러스 예약 2. 이용승인 3. 평일 09:00 ~ 18:00 이용 가능 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 24시간 개방 토요일 : 24시간 개방 휴일 : 24시간 개방",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151130/113020241221010335413_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1130"
+        }
+      }
     },
     {
       "id": "GL09T5330962",
@@ -3977,12 +4171,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257837/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T5330962"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 복합기",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 본사 복합기 <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 * 회사 행사로 인하여 사전 문의 필요 2. 이용승인 3. 사용 : 평일 09:00 ~ 18:00 이용 가능 (사용 용지는 사용자 준비) -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00 ~ 18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151131/113120241221010805711_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1131"
+        }
+      }
     },
     {
       "id": "GL09T5503475",
@@ -4014,12 +4226,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257840/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T5503475"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 체지방분해 혈액순환기",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 본사 체지방분해 혈액순환기 <이용절차> 1. 이용신청 : 알리오 플러스 예약 2. 이용승인 3. 평일 09:00 ~ 18:00 이용 가능 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00 ~ 18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151132/113220241221012639791_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1132"
+        }
+      }
     },
     {
       "id": "GL09T4607681",
@@ -4051,12 +4281,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257825/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T4607681"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 산소농도측정기",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 산소농도측정기 <이용절차> 1. 이용신청 : 알리오 플러스 예약 * 회사 내부 사정으로 인하여 사용중인 경우가 발생할 수 있으니 하단의 담당자에게 예약전 문의 요망 2. 이용승인 3. 평일 09:00 ~ 18:00 이용 가능 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00 ~ 18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151114/111420241221011911256_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1114"
+        }
+      }
     },
     {
       "id": "GL09T2726105",
@@ -4088,12 +4336,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257801/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T2726105"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "레이저 타코미터 (회전 RPM 측정기)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 회전 측정범위 : 5 ~ 200,000 RPM (광학) 0.5~ 20,000 RPM (접촉) <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서만 장비 및 물품 사용가능) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151011/101120241111032855780_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1011"
+        }
+      }
     },
     {
       "id": "GL09T2511242",
@@ -4125,12 +4391,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257798/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T2511242"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "부피플라스크 세트(Volumetric Flask)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 용도 : 표준용액 제조 등 - 용량 : 25mL, 50mL, 100mL, 250mL, 500mL, 1,000mL, 2,000mL <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151010/101020241111024106047_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1010"
+        }
+      }
     },
     {
       "id": "GL09T2303104",
@@ -4162,12 +4446,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257795/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T2303104"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "디지털 온습도계",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 온도 측정범위 : -50 ℃ ~ +70 ℃ (0.1 ℃ 단위 표시) - 습도 측정범위 : 20% ~ 99.9% R.H <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품 사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151009/100920241111024411470_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1009"
+        }
+      }
     },
     {
       "id": "GG11K812441",
@@ -4199,12 +4501,30 @@
       "hours": "",
       "caution": "공유누리는 무료, 알리오플러스는 유료로 표시되어 있습니다. 이용시간도 서로 달라 예약 전 담당자 확인이 필요합니다.",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/233236/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGym/index.do?rsrc_no=GG11K812441"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 테니스장",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 백현동, 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<이용절차> 1. 이용신청 : 알리오 플러스 예약 * 기관 내부사정에 따라 사용이 불가능 할 수 있으니 담당자 사전 문의 2. 이용승인 3. 토요일 13:00 ~ 18:00 이용가능 4. 공휴일(일요일제외) 13:00~18:00 이용가능 <이용안내> 1. 동일인이 예약취소 3회 이상 시 향후 사용제한 2. 테니스 봉, 네트 설치 사용 후 원위치 3. 흡연금지 4. 화장실 이용 시 경비실 요청 ※ 안내 미준수 시 현장퇴거 조치 및 향후 사용제한 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "이용요금: 무료"
+        },
+        "hours": "평일 : 개방안함 토요일 : 13:00 ~ 18:00 일요일 : 개방안함 공휴일 : 13:00 ~ 18:00",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215/faclt/8398/839820250203090441068_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=8398"
+        }
+      }
     },
     {
       "id": "GG11K812442",
@@ -4236,12 +4556,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/233238/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcFacl/index.do?rsrc_no=GG11K812442"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 소회의실",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 백현동, 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<이용절차> 1. 이용신청 : 알리오 플러스 예약 * 기관 내부 사정에 따라 사용이 불가능할 수 있으니 담당자 사전 확인 필요 2. 이용승인 3. 평일 10:00 ~ 17:00 이용 가능 4. 기타 : 흡연불가, 주차 최대 2대까지 가능(사전 문의 必) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17:00 토요일 : 개방안함 일요일 : 개방안함 공휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215/faclt/8235/823520241221023552696_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=8235"
+        }
+      }
     },
     {
       "id": "GG11K812443",
@@ -4273,12 +4611,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/233240/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcFacl/index.do?rsrc_no=GG11K812443"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 중회의실",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 백현동, 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<이용절차> 1. 이용신청 : 알리오 플러스 예약 * 기관 내부사정에 따라 사용이 불가능할 수 있으니 담당자 사전 문의 2. 이용승인 3. 평일 10:00 ~ 17:00 이용 가능 4. 기타 : 흡연불가, 주차는 최대 2대까지 가능(사전 문의 必) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17:00 토요일 : 개방안함 일요일 : 개방안함 공휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215/faclt/8214/821420241221023343137_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/facilities/facltDetail.do?facltSeq=8214"
+        }
+      }
     },
     {
       "id": "GL08T3711212",
@@ -4310,12 +4666,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257198/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL08T3711212"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "마이크로 전자저울",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 전자저울 측정범위 : 0 ~ 6g (1 ug 단위 표시) <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215988/98820241111013258152_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=988"
+        }
+      }
     },
     {
       "id": "GL08T4427312",
@@ -4347,12 +4721,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257201/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL08T4427312"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "디지털 항온수조(Digital Water Bath)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 수조 온도조절범위 : 0 ~ 100 ℃ <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215989/98920241111013607756_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=989"
+        }
+      }
     },
     {
       "id": "GL08T4818441",
@@ -4384,12 +4776,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257204/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL08T4818441"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "초음파 세척기",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7982",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215990/99020241111013741293_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=990"
+        }
+      }
     },
     {
       "id": "GL08T5130081",
@@ -4421,12 +4831,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257207/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL08T5130081"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "피펫 세트(Volumetric Pipet)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 용도 : 용액부피 운반 (One mark) - 용량 : 2mL, 10mL, 15mL, 20mL, 25mL, 30mL, 50mL <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 33. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 연구소 내에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215991/99120241111023518016_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=991"
+        }
+      }
     },
     {
       "id": "GL08T5726337",
@@ -4458,12 +4886,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257212/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL08T5726337"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "접촉식 휴대 온도계",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 온도 측정범위 : -200 ℃ ~ +1,370 ℃ (1℃ 단위 표시) <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215992/99220241111023355836_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=992"
+        }
+      }
     },
     {
       "id": "GL09T2110429",
@@ -4495,12 +4941,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257792/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T2110429"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "전자저울",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 전자저울 측정범위 : 0 ~ 300g (0.1 mg 단위 표시) <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151008/100820241111032747555_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1008"
+        }
+      }
     },
     {
       "id": "GL09T1904220",
@@ -4532,12 +4996,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257789/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T1904220"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "유리 데시케이터 (Glass Desicator)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215996/99620241111024246513_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=996"
+        }
+      }
     },
     {
       "id": "GL09T1625740",
@@ -4569,12 +5051,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257786/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T1625740"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "회전추출기",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 플라스크 조인트규격 : 24/40 - 플라스크 용량 : 최대 1,000 mL <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215995/99520241111024732591_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=995"
+        }
+      }
     },
     {
       "id": "GL09T1303459",
@@ -4606,12 +5106,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257783/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL09T1303459"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "필터여과기 세트",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<장비 및 물품 규격> - 필터 규격 : 47mm용 <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (연구소 내에서 장비 및 물품사용) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215994/99420241111024003470_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=994"
+        }
+      }
     },
     {
       "id": "GL08U0039775",
@@ -4643,12 +5161,30 @@
       "hours": "평일: 10:00~17:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257215/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEqp/index.do?rsrc_no=GL08U0039775"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "전기로 (Electric Muffle Furnace)",
+        "details": {
+          "address": "충청북도 청주시 청원구 오창읍 양청3길 33 미래기술연구소 시험처",
+          "provider": "한국석유관리원",
+          "phone": "043-240-7983",
+          "target": "전 국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "장비 및 물품 규격> - 온도범위 : 상온 ~ 최대 +1,000 ℃ <이용절차> 1. 이용신청 : 아래 문의처 담당자에게 사전 문의 후 예약신청 2. 이용승인 3. 장비 및 물품 사용 (※ 중요 : 물품장비 사용은 현재 설치된 상태에서만 사용가능 하오니 참고바랍니다. (외부 반출 임대는 어렵습니다.) ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 17: 00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C0215993/99320241111033634843_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=993"
+        }
+      }
     },
     {
       "id": "GL09T5718622",
@@ -4680,12 +5216,30 @@
       "hours": "평일: 10:00~12:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257843/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T5718622"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "본사 탁구대",
+        "details": {
+          "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 한국석유관리원",
+          "provider": "한국석유관리원",
+          "phone": "031-789-0273",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "<품목> 탁구대 <이용절차> 1. 이용신청 : 알리오 플러스 예약 2. 이용승인 3. 평일 10:00 ~ 12:00 이용 가능 (탁구라켓 및 탁구공은 사용자 준비) -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 10:00 ~ 12:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151133/113320241221012945701_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1133"
+        }
+      }
     },
     {
       "id": "GL09T5940719",
@@ -4717,12 +5271,30 @@
       "hours": "평일: 관리자 문의 · 토요일: 관리자 문의 · 일요일/공휴일: 관리자 문의",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257846/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09T5940719"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 엔진톱",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약가능여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151581/158120250626044045152_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1581"
+        }
+      }
     },
     {
       "id": "GL09U0102619",
@@ -4754,12 +5326,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257849/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0102619"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 천막",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151582/158220250626051209578_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1582"
+        }
+      }
     },
     {
       "id": "GL09U0234864",
@@ -4791,12 +5381,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257852/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0234864"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 사다리",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151583/158320250626051733806_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1583"
+        }
+      }
     },
     {
       "id": "HI17P2052716",
@@ -4829,7 +5437,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280935/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P2052716"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18K3401438",
@@ -4862,7 +5470,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280977/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18K3401438"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18K3927002",
@@ -4895,7 +5503,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280980/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18K3927002"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18K4103369",
@@ -4928,7 +5536,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280983/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18K4103369"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18M5713304",
@@ -4961,7 +5569,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281008/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18M5713304"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N0122698",
@@ -4994,7 +5602,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281011/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N0122698"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N0406445",
@@ -5027,7 +5635,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281015/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N0406445"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N1314942",
@@ -5060,7 +5668,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281018/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N1314942"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N2038601",
@@ -5093,7 +5701,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281034/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N2038601"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N1841343",
@@ -5126,7 +5734,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281031/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N1841343"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N1713275",
@@ -5159,7 +5767,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281028/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N1713275"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N1509022",
@@ -5192,7 +5800,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281025/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N1509022"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N1354187",
@@ -5225,7 +5833,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281022/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcEdu/index.do?rsrc_no=HI18N1354187"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI17P1944669",
@@ -5258,7 +5866,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280931/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P1944669"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI18N2711450",
@@ -5291,7 +5899,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/281043/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI18N2711450"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI17P1520655",
@@ -5324,7 +5932,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280925/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P1520655"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HI17P0937019",
@@ -5357,7 +5965,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280916/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P0937019"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "GL09U0346533",
@@ -5389,12 +5997,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257855/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0346533"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 드릴",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151584/158420250626051913891_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1584"
+        }
+      }
     },
     {
       "id": "GL09U0455803",
@@ -5426,12 +6052,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257858/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0455803"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 전지톱",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151585/158520250626052043710_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1585"
+        }
+      }
     },
     {
       "id": "GL09U0730604",
@@ -5463,12 +6107,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257861/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0730604"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 전선 릴",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151586/158620250626052218120_0&fleExt=jpeg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1586"
+        }
+      }
     },
     {
       "id": "GL09U0838555",
@@ -5500,12 +6162,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257864/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0838555"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 그라인더",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151587/158720250626052342069_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1587"
+        }
+      }
     },
     {
       "id": "GL09U0953058",
@@ -5537,12 +6217,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257867/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U0953058"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 공구세트",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151588/158820250626052503946_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1588"
+        }
+      }
     },
     {
       "id": "GL09U1123603",
@@ -5574,12 +6272,30 @@
       "hours": "평일: 관리자 문의 · 토요일: 관리자 문의 · 일요일/공휴일: 관리자 문의",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257870/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U1123603"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 송풍기",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151589/158920250626052618971_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1589"
+        }
+      }
     },
     {
       "id": "GL09U1240925",
@@ -5611,12 +6327,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257873/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U1240925"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 수레",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151590/159020250626052728023_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1590"
+        }
+      }
     },
     {
       "id": "GL09U1407082",
@@ -5648,12 +6382,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257876/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U1407082"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 예초기",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151601/160120250626050411862_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1601"
+        }
+      }
     },
     {
       "id": "HI17P0646801",
@@ -5686,7 +6438,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280913/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P0646801"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ21O4732995",
@@ -5715,7 +6467,7 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283955/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O4732995"
@@ -5752,7 +6504,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280896/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcFacl/index.do?rsrc_no=HI17N1804687"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "GL09U1516425",
@@ -5784,12 +6536,30 @@
       "hours": "평일: 09:00~18:00 · 토요일: 미개방 · 일요일/공휴일: 미개방",
       "caution": "",
       "detail_verified": true,
-      "verification": "공유누리 상세 자동 확인",
+      "verification": "공유누리·알리오플러스 자동 확인",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/257879/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=GL09U1516425"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
+      "alio": {
+        "name": "충북본부 해머드릴(뿌레카)",
+        "details": {
+          "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
+          "provider": "한국석유관리원",
+          "phone": "043-877-0200",
+          "target": "전국민",
+          "fee": "무료",
+          "approval": "원문 예약조건 확인",
+          "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
+          "notice": "대여안내: 대여가능 · 이용요금: 무료"
+        },
+        "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
+        "image": {
+          "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151602/160220250626051538521_0&fleExt=jpg",
+          "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1602"
+        }
+      }
     },
     {
       "id": "HI17P1058922",
@@ -5822,7 +6592,7 @@
         "url": "https://www.eshare.go.kr/UserPortal/Upv/280919/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HI17P1058922"
       },
-      "verifiedAt": "2026-10-23T01:16:31.958Z"
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     },
     {
       "id": "HJ21O4928703",
@@ -5851,75 +6621,97 @@
       "caution": "",
       "detail_verified": true,
       "verification": "공유누리 상세 자동 확인",
-      "verifiedAt": "2026-10-23T01:16:31.958Z",
+      "verifiedAt": "2026-10-23T01:21:41.927Z",
       "image": {
         "url": "https://www.eshare.go.kr/UserPortal/Upv/283958/fileDetail.do?file_sn=1&size=s",
         "sourceUrl": "https://www.eshare.go.kr/UserPortal/Upv/UprResrcGds/index.do?rsrc_no=HJ21O4928703"
       }
     },
     {
-      "id": "alio-1585",
-      "name": "전지톱",
-      "branch": "충북본부",
-      "type": "물품",
-      "source": "알리오플러스",
-      "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1585",
+      "id": "alio-product-1793",
       "links": [
         {
           "label": "알리오플러스",
-          "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1585"
+          "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1793"
         }
       ],
-      "details": {
-        "address": "충청북도 음성군 맹동면 두레로 51-6 한국석유관리원 충북본부",
-        "provider": "한국석유관리원 충북본부",
-        "phone": "043-877-0200",
-        "target": "전국민",
-        "approval": "예약 전 문의",
-        "fee": "무료",
-        "description": "예약 가능 여부 유선확인 ★노쇼 패널티 규정★ -1회 : 경고 -2회 이상 : 자원 예약 금지 (1년)",
-        "notice": ""
-      },
-      "hours": "평일 : 09:00~18:00 토요일 : 개방안함 휴일 : 개방안함",
       "caution": "",
-      "detail_verified": true,
-      "verification": "상세 페이지 확인",
-      "image": {
-        "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151585/158520250626052043710_0&fleExt=jpg",
-        "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1585"
+      "name": "test",
+      "branch": "본사",
+      "type": "물품",
+      "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1793",
+      "source": "알리오플러스",
+      "details": {
+        "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 운영지원팀",
+        "provider": "한국석유관리원",
+        "phone": "010-2-2",
+        "target": "",
+        "fee": "유료",
+        "approval": "원문 예약조건 확인",
+        "description": "test",
+        "notice": "대여안내: 대여가능 · 이용요금: test"
       },
-      "verifiedAt": "2026-09-30"
+      "hours": "평일 : 24시간 개방 토요일 : 24시간 개방 휴일 : 24시간 개방",
+      "image": {
+        "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151793/179320260930041017031_0&fleExt=JPG",
+        "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1793"
+      },
+      "detail_verified": true,
+      "verification": "알리오플러스 상세 자동 확인",
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
+    },
+    {
+      "id": "alio-product-1792",
+      "links": [
+        {
+          "label": "알리오플러스",
+          "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1792"
+        }
+      ],
+      "caution": "",
+      "name": "test",
+      "branch": "본사",
+      "type": "물품",
+      "url": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1792",
+      "source": "알리오플러스",
+      "details": {
+        "address": "경기도 성남시 분당구 안양판교로 1207 (백현동) 운영지원팀",
+        "provider": "한국석유관리원",
+        "phone": "010-1-1",
+        "target": "",
+        "fee": "무료",
+        "approval": "원문 예약조건 확인",
+        "description": "test",
+        "notice": "대여안내: 대여가능 · 이용요금: 무료"
+      },
+      "hours": "평일 : 24시간 개방 토요일 : 24시간 개방 휴일 : 24시간 개방",
+      "image": {
+        "url": "https://www.alioplus.go.kr/comm/imgPrint.do?imgUrl=/C02151792/179220260930040724821_0&fleExt=JPG",
+        "sourceUrl": "https://www.alioplus.go.kr/product/productDetail.do?productSeq=1792"
+      },
+      "detail_verified": true,
+      "verification": "알리오플러스 상세 자동 확인",
+      "verifiedAt": "2026-10-23T01:21:41.927Z"
     }
   ],
   "notes": [
     "공유누리 전체 검색과 공유누리 상세 페이지를 정기 수집합니다.",
     "ZEUS 등 연계 자원은 공유누리 목록만 확인하며 예약 가능 여부는 원문에서 확인해야 합니다.",
-    "알리오플러스 단독 보완 항목은 항목별 확인일 기준입니다.",
+    "알리오플러스 전체 목록과 상세를 정기 수집합니다. 두 출처에서 모두 사라진 자원만 제외합니다.",
     "검토된 중복 주차장과 종료 교육은 제외합니다."
   ],
   "sourceCount": 174,
   "latestChanges": {
-    "at": "2026-10-23T01:08:48.867Z",
-    "from": "2026-09-30",
+    "at": "2026-10-23T01:22:01.545Z",
+    "from": "2026-10-23T01:16:44.231Z",
     "branches": [
       {
         "branch": "본사",
-        "before": 12,
-        "total": 25,
+        "before": 25,
+        "total": 27,
         "added": [
-          "본사 공구(헤라)",
-          "스피드핸들",
-          "드라이버",
-          "니퍼",
-          "전지가위(원예용 관리)",
-          "펜치",
-          "전정가위(울타리가위)",
-          "몽키스패너",
-          "장도리(망치)",
-          "쇠톱",
-          "흙손(미장고데)",
-          "A자 알루미늄 사다리(6단)",
-          "워터펌프플라이어"
+          "test",
+          "test"
         ],
         "updated": [
           "본사 주차장",
@@ -5942,14 +6734,7 @@
         "before": 6,
         "total": 6,
         "added": [],
-        "updated": [
-          "전동릴선(수도권북부본부_의정부시)",
-          "안전모(수도권북부본부_의정부시)",
-          "송풍브로워(수도권북부본부_의정부시)",
-          "락아웃키트(수도권북부본부_의정부시)",
-          "자동차 점프스타터(수도권북부본부_의정부시)",
-          "전동드릴세트(수도권북부본부_의정부시)"
-        ],
+        "updated": [],
         "removed": []
       },
       {
@@ -5957,21 +6742,13 @@
         "before": 8,
         "total": 8,
         "added": [],
-        "updated": [
-          "복합기",
-          "사다리",
-          "안전대",
-          "안전모",
-          "시험복",
-          "세절기",
-          "보안경"
-        ],
+        "updated": [],
         "removed": []
       },
       {
         "branch": "충북본부",
         "before": 13,
-        "total": 13,
+        "total": 12,
         "added": [],
         "updated": [
           "충북본부 엔진톱",
@@ -5987,31 +6764,16 @@
           "충북본부 예초기",
           "충북본부 해머드릴(뿌레카)"
         ],
-        "removed": []
+        "removed": [
+          "전지톱"
+        ]
       },
       {
         "branch": "대전세종충남본부",
         "before": 16,
         "total": 16,
         "added": [],
-        "updated": [
-          "드라이버(+,-)",
-          "그라인더",
-          "로타리 함마드릴",
-          "몽키(소)",
-          "사디리",
-          "손수레",
-          "줄자",
-          "안전모",
-          "안전대",
-          "엔진정전기",
-          "전기절단기",
-          "엔진톱",
-          "전동드릴",
-          "예초기",
-          "전기브로워",
-          "고압이동식분무기"
-        ],
+        "updated": [],
         "removed": []
       },
       {
@@ -6019,20 +6781,7 @@
         "before": 12,
         "total": 12,
         "added": [],
-        "updated": [
-          "안전대",
-          "안전모",
-          "헤머드릴(뿌레카)",
-          "수레",
-          "공구세트",
-          "전선 릴",
-          "전동 드릴",
-          "브로워",
-          "수중모터",
-          "농약분무기",
-          "잔디깍기",
-          "고압세척기"
-        ],
+        "updated": [],
         "removed": []
       },
       {
@@ -6040,15 +6789,7 @@
         "before": 7,
         "total": 7,
         "added": [],
-        "updated": [
-          "들것",
-          "안전대, 안전대걸이",
-          "응급구급함",
-          "사다리",
-          "접톱",
-          "자동 줄자",
-          "(+,-)드라이버"
-        ],
+        "updated": [],
         "removed": []
       },
       {
@@ -6056,44 +6797,15 @@
         "before": 14,
         "total": 14,
         "added": [],
-        "updated": [
-          "가스감지기(LPG, LNG용)",
-          "천막",
-          "충전햄머드릴",
-          "사다리",
-          "가스감지기(수소용)",
-          "풍속계",
-          "제습기",
-          "엔진톱",
-          "가스통 거치대",
-          "이동식 에어컨",
-          "그라인더",
-          "코팅기",
-          "자동심실제세동기",
-          "안전모"
-        ],
+        "updated": [],
         "removed": []
       },
       {
         "branch": "제주본부",
-        "before": 5,
+        "before": 12,
         "total": 12,
-        "added": [
-          "체력단련실(헬스장)",
-          "회의실",
-          "탁구대",
-          "점프스타터",
-          "그라인더",
-          "공구세트",
-          "안전모"
-        ],
-        "updated": [
-          "엔진톱",
-          "브로워",
-          "사다리",
-          "예초기",
-          "전동드릴"
-        ],
+        "added": [],
+        "updated": [],
         "removed": []
       },
       {
@@ -6102,46 +6814,8 @@
         "total": 60,
         "added": [],
         "updated": [
-          "주차장",
-          "신속유동점 및 담점시험기",
-          "원소분석기(CHN)",
-          "퍼니스(전기로, 회분시험)",
-          "발열량시험기",
-          "항유화성시험기",
-          "인화점시험기(펜스키마텐스식밀폐식)",
+          "한국석유관리원 미래기술연구소 주차장",
           "원심분리기",
-          "황분(자외선형광분광법)",
-          "인화점시험기(Tag, 태그밀폐식)",
-          "적외선분광광도계(FT-IR)",
-          "저온필터막힘점(CFPP)",
-          "저온겉보기점도계",
-          "질소분시험기(화학발광법",
-          "가스크로마토그래피(FAME, GC)",
-          "황분시험기(에너지분산 X-ray 형광분석법)",
-          "칼피셔 수분측정기",
-          "인화점시험기(자동, COC)",
-          "미니증기압시험기",
-          "기포성 시험기",
-          "세이볼트색도계(수동)",
-          "빙점시험기",
-          "잔류탄소분(마이크로법)",
-          "인화점(신속평형법)",
-          "LPG탄화수소 성분분석",
-          "굴절계",
-          "만능재료시험기",
-          "바이오디젤분석",
-          "가스크로마토그래피",
-          "오염도",
-          "납성분(X-ray법, 항공유)",
-          "밀도시험기",
-          "밀도시험기",
-          "동점도",
-          "굴절계",
-          "분광광도계",
-          "내마모성능(4구식, 쉘식)",
-          "중화가",
-          "금속분(유도결합플라즈마방출분광법)",
-          "굴절계",
           "플라스크형 히팅맨틀(Heating Mantle)",
           "건조오븐(강제순환식)(Forced-air Drying Oven)",
           "디지털교반용 핫플레이트(Hot Plate)",
@@ -6183,20 +6857,36 @@
     ]
   },
   "lastSync": {
-    "at": "2026-10-23T01:16:44.231Z",
-    "from": "2026-10-23T01:12:29.409Z",
+    "at": "2026-10-23T01:22:01.545Z",
+    "from": "2026-10-23T01:16:44.231Z",
     "before": 173,
-    "total": 173,
-    "added": 0,
-    "updated": 0,
-    "removed": 0,
+    "total": 174,
+    "added": 2,
+    "updated": 45,
+    "removed": 1,
     "branches": [
       {
         "branch": "본사",
         "before": 25,
-        "total": 25,
-        "added": [],
-        "updated": [],
+        "total": 27,
+        "added": [
+          "test",
+          "test"
+        ],
+        "updated": [
+          "본사 주차장",
+          "본사 혈압측정계",
+          "본사 런닝머신",
+          "본사 Canon 카메라",
+          "본사 인바디측정기",
+          "본사 복합기",
+          "본사 체지방분해 혈액순환기",
+          "본사 산소농도측정기",
+          "본사 테니스장",
+          "본사 소회의실",
+          "본사 중회의실",
+          "본사 탁구대"
+        ],
         "removed": []
       },
       {
@@ -6218,10 +6908,25 @@
       {
         "branch": "충북본부",
         "before": 13,
-        "total": 13,
+        "total": 12,
         "added": [],
-        "updated": [],
-        "removed": []
+        "updated": [
+          "충북본부 엔진톱",
+          "충북본부 천막",
+          "충북본부 사다리",
+          "충북본부 드릴",
+          "충북본부 전지톱",
+          "충북본부 전선 릴",
+          "충북본부 그라인더",
+          "충북본부 공구세트",
+          "충북본부 송풍기",
+          "충북본부 수레",
+          "충북본부 예초기",
+          "충북본부 해머드릴(뿌레카)"
+        ],
+        "removed": [
+          "전지톱"
+        ]
       },
       {
         "branch": "대전세종충남본부",
@@ -6268,7 +6973,29 @@
         "before": 60,
         "total": 60,
         "added": [],
-        "updated": [],
+        "updated": [
+          "한국석유관리원 미래기술연구소 주차장",
+          "원심분리기",
+          "플라스크형 히팅맨틀(Heating Mantle)",
+          "건조오븐(강제순환식)(Forced-air Drying Oven)",
+          "디지털교반용 핫플레이트(Hot Plate)",
+          "원심분리기",
+          "자제도가니(Porcelain Crucible)",
+          "비커형 히팅맨틀(Heating Mantle)",
+          "레이저타코미터(회전RPM 측정기)",
+          "부피플라스크 세트(Volumetric Flask)",
+          "디지털온습도계",
+          "마이크로전자저울",
+          "디지털 항온수조(Digital Water Bath)",
+          "초음파세척기",
+          "피펫세트(Volumetric Pipet)",
+          "접촉식 휴대 온도계",
+          "전자저울",
+          "유리 데시케이터(Glass Desicator)",
+          "회전추출기",
+          "필터여과기세트",
+          "전기로(Electric Muffle Furnace)"
+        ],
         "removed": []
       },
       {
@@ -6288,5 +7015,6 @@
         "removed": []
       }
     ]
-  }
+  },
+  "alioSourceCount": 46
 }

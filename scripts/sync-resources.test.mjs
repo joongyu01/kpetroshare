@@ -38,3 +38,28 @@ test('deletions are reported even when a new item keeps the total unchanged', ()
   assert.deepEqual(b.removed,['드릴']);assert.deepEqual(b.added,['망치']);assert.equal(b.total,b.before);
   assert.equal(changesBetween([old],[{...old,image:{url:'https://www.eshare.go.kr/new.png'}}]).find(b=>b.branch==='제주본부').updated.length,1);
 });
+import {parseAlioList,parseAlioDetail,mergeAlio} from './sync-resources.mjs';
+
+test('Alio parser rejects incomplete pages and reads current conditions',()=>{
+  assert.throws(()=>parseAlioList('<h1>점검</h1>','product'));
+  const list=parseAlioList(`<div class="totalTxt"><h3><strong>1</strong></h3></div><ul class="photo_list01"><li><h4 onclick="fnDetail('1585');">전지톱</h4></li></ul>`,'product');
+  assert.equal(list.items[0].id,'product-1585');
+  assert.throws(()=>parseAlioDetail('<h1>삭제됨</h1>',list.items[0]));
+  const detail=parseAlioDetail(`<div class="h2_tit"><h2><strong>충북본부 전지톱</strong></h2></div><div class="cont_view_top"><ul class="info"><li><span class="info_tit">기관명</span><span class="info_txt">한국석유관리원</span></li><li><span class="info_tit">시설주소</span><span class="info_txt">충청북도 음성군 충북본부</span></li></ul></div><div class="cont_view01_list"><ul><li><div class="tit">이용안내</div><div class="txt">새 대여조건</div></li></ul></div>`,list.items[0]);
+  assert.equal(detail.branch,'충북본부');assert.equal(detail.details.description,'새 대여조건');
+});
+test('Alio deletions remove dead links, preserve other source and stable identity',()=>{
+  const url='https://www.alioplus.go.kr/product/productDetail.do?productSeq=1';
+  const a={id:'product-1',name:'드릴',branch:'충북본부',url,details:{fee:'무료'},hours:''};
+  const eshare={id:'e1',name:'드릴',branch:'충북본부',url:'https://www.eshare.go.kr/item',links:[{label:'공유누리',url:'https://www.eshare.go.kr/item'},{label:'알리오플러스',url}]};
+  const removed=mergeAlio([eshare],[eshare],[],'now');assert.equal(removed.length,1);assert.equal(removed[0].links.length,1);
+  const fallback=mergeAlio([],[eshare],[a],'now');assert.equal(fallback[0].id,'e1');assert.equal(fallback[0].url,url);assert.equal(fallback[0].links.length,1);
+  assert.equal(mergeAlio([],fallback,[],'now').length,0);
+  const merged=mergeAlio([eshare],[eshare],[a],'now');assert.equal(merged.length,1);assert.equal(merged[0].alio.details.fee,'무료');
+  assert.deepEqual(mergeAlio(merged,merged,[a],'later'),merged);
+  assert.equal(mergeAlio([{...eshare,branch:'본사',links:[]}],[],[a],'now').length,2);
+});
+test('distinct Alio registrations with identical names are not collapsed',()=>{
+ const a={id:'product-1',name:'test',branch:'본사',url:'https://www.alioplus.go.kr/product/productDetail.do?productSeq=1',details:{fee:'무료'}};
+ assert.equal(mergeAlio([],[],[a,{...a,id:'product-2',url:a.url.replace('Seq=1','Seq=2')}],'now').length,2);
+});

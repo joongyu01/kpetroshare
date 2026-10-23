@@ -76,7 +76,7 @@ export function validateSnapshot(rows, total, oldCount) {
   assert(total >= oldCount * 0.8, 'Large decrease requires manual review; keeping previous data');
 }
 export function changesBetween(previous, items) {
-  const comparable = i => JSON.stringify([i.name,i.branch,i.type,i.url,i.details,i.hours,i.image?.url,i.links]);
+  const comparable = i => JSON.stringify([i.name,i.branch,i.type,i.url,i.details,i.hours,i.image?.url,i.links,i.alio]);
   return branches.map(b => {
     const before = previous.filter(i => i.branch === b.name), after = items.filter(i => i.branch === b.name);
     return {branch:b.name, before:before.length, total:after.length,
@@ -85,6 +85,76 @@ export function changesBetween(previous, items) {
       removed:before.filter(i => !items.some(n => n.id === i.id)).map(i => i.name)};
   });
 }
+
+const alioOrigin = 'https://www.alioplus.go.kr';
+const isAlio = url => new URL(url).hostname === 'www.alioplus.go.kr';
+const alioKey = url => {const u=new URL(url);return u.searchParams.has('productSeq') ? 'product-'+u.searchParams.get('productSeq') : 'facility-'+u.searchParams.get('facltSeq');};
+export function parseAlioList(html, kind) {
+  const $=load(html), count=norm($('.totalTxt h3 strong').first().text()).replace(/,/g,'');
+  assert(/^\d+$/.test(count), 'Alio search total missing');
+  const items=$('.photo_list01 li h4').toArray().map(e=>{
+    const id=($(e).attr('onclick')||'').match(/fnDetail\('([0-9]+)'\)/)?.[1];
+    assert(id && norm($(e).text()), 'Alio search row missing');
+    return {id:kind+'-'+id, url:alioOrigin+(kind==='product'?'/product/productDetail.do?productSeq=':'/facilities/facltDetail.do?facltSeq=')+id};
+  });
+  return {total:Number(count),items};
+}
+export function parseAlioDetail(html, row) {
+  const $=load(html), fields={}, sections={};
+  $('br').replaceWith(' ');
+  $('.cont_view_top .info li').each((_,e)=>{fields[norm($(e).find('.info_tit').text())]=norm($(e).find('.info_txt').text());});
+  $('.cont_view01_list > ul > li').each((_,e)=>{sections[norm($(e).children('.tit').text())]=norm($(e).children('.txt').text());});
+  const name=norm($('.h2_tit h2 strong').text()), address=fields['시설주소'];
+  assert(name && address && fields['기관명']==='한국석유관리원' && sections['이용안내'], 'Alio detail missing or unrelated');
+  const text=name+' '+address+' '+(sections['문의처']||'');
+  const branch=branches.find(b=>b.name!=='본사' && text.includes(b.name)) || branches.find(b=>address.includes(b.city));
+  assert(branch, 'Unknown Alio branch: '+address);
+  const image=$('.cont_view_top .img img').first().attr('src');
+  return {...row,name,branch:branch.name,type:row.id.startsWith('product-')?'물품':/주차/.test(name)?'주차장':/테니스|체육/.test(name)?'체육시설':'회의실·공간',
+    details:{address,provider:fields['기관명'],phone:fields['문의처']||'',target:fields['이용대상']||'',fee:fields['유·무료여부']||sections['이용요금']||'',approval:'원문 예약조건 확인',description:sections['이용안내'],notice:['대여안내','대여방법','이용요금'].filter(k=>sections[k]).map(k=>k+': '+sections[k]).join(' · ')},
+    hours:sections['대여가능시간']||sections['이용가능시간']||'',image:image?{url:safeURL(image,alioOrigin),sourceUrl:row.url}:undefined};
+}
+export function mergeAlio(items, previous, alio, now) {
+  const canonical = name => name.replace(/한국석유관리원|[\s()·ㆍ]/g,'').replace(/런닝/g,'러닝').replace(/인바디측정기/g,'인바디');
+  const result=items.filter(i=>!isAlio(i.url) || alio.some(a=>alioKey(a.url)===alioKey(i.url))).map(i=>{
+    const copy={...i,links:i.links.filter(l=>!isAlio(l.url))};delete copy.alio;return copy;
+  });
+  for(const a of alio) {
+    const linked = i => [i.url,...(i.links||[]).map(l=>l.url)].some(url=>isAlio(url)&&alioKey(url)===alioKey(a.url));
+    const old=previous.find(linked);
+    let item=result.find(linked) || result.find(i=>old && i.id===old.id && i.branch===a.branch);
+    if(!item){const matches=result.filter(i=>!isAlio(i.url) && !i.alio && i.branch===a.branch && canonical(i.name)===canonical(a.name));if(matches.length===1)item=matches[0];}
+    if(!item){item={id:old?.id||'alio-'+a.id,links:[],caution:''};result.push(item);}
+    if(!item.url || isAlio(item.url)) {
+      Object.assign(item,{name:a.name,branch:a.branch,type:a.type,url:a.url,source:'알리오플러스',details:a.details,hours:a.hours,image:a.image,detail_verified:true,verification:'알리오플러스 상세 자동 확인',verifiedAt:now});
+    } else {
+      item.alio={name:a.name,details:a.details,hours:a.hours,image:a.image};
+      item.verification='공유누리·알리오플러스 자동 확인';
+    }
+    item.links.push({label:'알리오플러스',url:a.url});
+  }
+  return result;
+}
+async function collectAlio(previous) {
+  const rows=[];
+  for(const kind of ['product','facility']) {
+    let total, collected=[];
+    for(let page=1;;page++) {
+      assert(page<=500,'Alio pagination limit');
+      const endpoint=kind==='product'?'/product/productList.do':'/facilities/facltByRegionList.do';
+      const result=parseAlioList(await request(alioOrigin+endpoint+'?schApbaId=C0215&pageNo='+page),kind);
+      total ??= result.total;assert.equal(result.total,total,'Alio changed during pagination');
+      assert(result.items.length || total===0,'Empty Alio page');collected.push(...result.items);
+      if(collected.length>=total)break;
+    }
+    assert.equal(collected.length,total,'Incomplete Alio pagination');rows.push(...collected);
+  }
+  const oldCount=previous.alioSourceCount ?? new Set(previous.items.flatMap(i=>[i.url,...i.links.map(l=>l.url)]).filter(isAlio).map(alioKey)).size;
+  validateSnapshot(rows,rows.length,oldCount);
+  const details=[];for(const row of rows)details.push(parseAlioDetail(await request(row.url),row));
+  console.log('Collected '+details.length+' Alio records and details');return details;
+}
+
 export async function sync() {
   const file = 'public/data/resources.json';
   const previous = JSON.parse(await fs.readFile(file, 'utf8'));
@@ -102,7 +172,7 @@ export async function sync() {
   validateSnapshot(rows, total, previous.sourceCount ?? previous.items.filter(i => !i.id.startsWith('alio-')).length);
   console.log(`Collected ${total} source records`);
   const now = new Date().toISOString();
-  const items = [];
+  let items = [];
   for (const row of rows.filter(r => !excluded.has(r.id))) {
     const old = previous.items.find(i => i.id === row.id);
     const type = row.classification.startsWith('물품') ? '물품' : row.classification.startsWith('연구') ? '연구·실험장비' : row.classification.startsWith('교육') ? '교육·강좌' : /테니스|체육/.test(row.classification + row.name) ? '체육시설' : /주차/.test(row.classification + row.name) ? '주차장' : '회의실·공간';
@@ -118,16 +188,16 @@ export async function sync() {
     if (row.image) item.image = {url:row.image,sourceUrl:row.url}; else delete item.image;
     items.push(item);
   }
-  // shortcut: Alio-only supplemental records retain their own verification date until an Alio collector is added.
-  items.push(...previous.items.filter(i => i.id.startsWith('alio-')).map(i => ({...i, verifiedAt:i.verifiedAt || previous.updatedAt})));
+  const alio = await collectAlio(previous);
+  items = mergeAlio(items, previous.items, alio, now);
   const changes = changesBetween(previous.items, items);
   const hasChanges = changes.some(b => b.added.length || b.updated.length || b.removed.length);
   const completedAt = new Date().toISOString();
   const lastSync = {at:completedAt,from:previous.updatedAt,before:previous.items.length,total:items.length,
     added:changes.reduce((n,b) => n+b.added.length,0),updated:changes.reduce((n,b) => n+b.updated.length,0),removed:changes.reduce((n,b) => n+b.removed.length,0),branches:changes};
-  const document = {...previous, updatedAt:completedAt, sourceCount:total, items, lastSync,
+  const document = {...previous, updatedAt:completedAt, sourceCount:total, alioSourceCount:alio.length, items, lastSync,
     latestChanges:hasChanges ? {at:completedAt,from:previous.updatedAt,branches:changes} : previous.latestChanges,
-    notes:['공유누리 전체 검색과 공유누리 상세 페이지를 정기 수집합니다.','ZEUS 등 연계 자원은 공유누리 목록만 확인하며 예약 가능 여부는 원문에서 확인해야 합니다.','알리오플러스 단독 보완 항목은 항목별 확인일 기준입니다.','검토된 중복 주차장과 종료 교육은 제외합니다.']};
+    notes:['공유누리 전체 검색과 공유누리 상세 페이지를 정기 수집합니다.','ZEUS 등 연계 자원은 공유누리 목록만 확인하며 예약 가능 여부는 원문에서 확인해야 합니다.','알리오플러스 전체 목록과 상세를 정기 수집합니다. 두 출처에서 모두 사라진 자원만 제외합니다.','검토된 중복 주차장과 종료 교육은 제외합니다.']};
   await fs.writeFile(file + '.tmp', JSON.stringify(document, null, 2) + '\n');
   await fs.rename(file + '.tmp', file);
   console.log(`Saved ${items.length} resources; all pages and details validated`);
