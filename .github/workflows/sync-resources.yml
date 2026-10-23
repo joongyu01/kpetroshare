@@ -1,0 +1,37 @@
+name: Refresh shared resources
+on:
+  schedule:
+    - cron: '17 23 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: resource-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node --test scripts/*.test.mjs
+      - run: node scripts/sync-resources.mjs
+      - run: node scripts/sync-traffic.mjs
+        continue-on-error: true
+        env:
+          VERCEL_ANALYTICS_TOKEN: ${{ secrets.VERCEL_ANALYTICS_TOKEN }}
+      - run: npm run build
+      - name: Commit verified data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/resources.json public/data/traffic.json
+          if ! git diff --cached --quiet; then
+            git -c user.name=joongyu01 -c user.email=268551435+joongyu01@users.noreply.github.com commit -m 'Update resource directory and traffic statistics'
+            git push
+          fi

@@ -1,5 +1,18 @@
 # K-Petro Share
 
+## 자동 갱신 (2026-10-23)
+
+- GitHub `main`에 푸시하면 기존 Vercel 프로젝트로 배포합니다.
+- Actions의 **Refresh shared resources**는 매일 한국시간 08:17경 실행합니다. GitHub 상황에 따라 지연될 수 있으며 **Run workflow**로 즉시 실행할 수 있습니다.
+- 공유누리 전체 페이지와 내부 상세를 새로 수집합니다. 검색 건수 불일치, 중복 페이지, 상세 파싱 실패, 20% 초과 감소 시 기존 파일을 유지하고 작업을 실패 처리합니다.
+- ZEUS 등 외부 연계는 공유누리 목록만 확인합니다. 알리오플러스 단독 보완 항목은 기존 확인일을 유지합니다.
+- 화면의 작은 통계창에 최근 변경이 있었던 갱신의 본부별 추가/정보 변경/제외 건수를 표시합니다. 정보 변경은 저장된 이름·분류·주소·요금·조건 등의 차이이며, 원본 기관의 수정일을 뜻하지 않습니다.
+- 방문자는 Vercel Web Analytics로 수집하고 Actions가 한국시간 일별 집계를 `public/data/traffic.json`에 저장합니다. 개인 식별자나 API 토큰을 공개 파일에 넣지 않습니다.
+- GitHub Actions secret `VERCEL_ANALYTICS_TOKEN`이 필요합니다. 방문 집계 실패는 자원 갱신을 막지 않으며 마지막 집계 시각이 화면에 남습니다. 과거 미수집 기록은 0으로 만들지 않습니다.
+- 테스트: `node --test scripts/*.test.mjs`. 수동 수집: `node scripts/sync-resources.mjs`.
+
+아래 내용은 최초 구축 당시의 자료와 검증 기록입니다.
+
 한국석유관리원 공유 물품 안내 지도. Vite + JavaScript + D3 Geo로 구성한 정적 웹사이트입니다.
 
 ## 실행
