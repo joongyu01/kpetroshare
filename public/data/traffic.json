@@ -1,6 +1,6 @@
 {
   "startedAt": "2026-10-23T00:00:00+09:00",
-  "updatedAt": "2026-10-23T01:11:11.400Z",
+  "updatedAt": "2026-10-23T01:13:28.507Z",
   "timezone": "Asia/Seoul",
   "days": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "date": "2026-10-23",
-      "visitors": 0
+      "visitors": 1
     }
   ]
 }
