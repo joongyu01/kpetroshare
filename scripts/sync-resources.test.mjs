@@ -32,3 +32,9 @@ test('reports count source changes but ignore verification timestamps', () => {
   assert.deepEqual(b.added,['그라인더']);assert.equal(b.updated.length,0);assert.equal(b.total,2);
   assert.equal(changesBetween([old],[{...old,details:{fee:'유료'}}]).find(b=>b.branch==='제주본부').updated.length,1);
 });
+test('deletions are reported even when a new item keeps the total unchanged', () => {
+  const old={id:'a',name:'드릴',branch:'제주본부',details:{fee:'무료'}};
+  const b=changesBetween([old],[{...old,id:'b',name:'망치'}]).find(b=>b.branch==='제주본부');
+  assert.deepEqual(b.removed,['드릴']);assert.deepEqual(b.added,['망치']);assert.equal(b.total,b.before);
+  assert.equal(changesBetween([old],[{...old,image:{url:'https://www.eshare.go.kr/new.png'}}]).find(b=>b.branch==='제주본부').updated.length,1);
+});

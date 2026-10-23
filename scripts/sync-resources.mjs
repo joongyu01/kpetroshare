@@ -76,7 +76,7 @@ export function validateSnapshot(rows, total, oldCount) {
   assert(total >= oldCount * 0.8, 'Large decrease requires manual review; keeping previous data');
 }
 export function changesBetween(previous, items) {
-  const comparable = i => JSON.stringify([i.name,i.branch,i.type,i.url,i.details,i.hours]);
+  const comparable = i => JSON.stringify([i.name,i.branch,i.type,i.url,i.details,i.hours,i.image?.url,i.links]);
   return branches.map(b => {
     const before = previous.filter(i => i.branch === b.name), after = items.filter(i => i.branch === b.name);
     return {branch:b.name, before:before.length, total:after.length,
@@ -99,7 +99,7 @@ export async function sync() {
     rows.push(...result.items);
     if (rows.length >= total) break;
   }
-  validateSnapshot(rows, total, previous.items.filter(i => !i.id.startsWith('alio-')).length);
+  validateSnapshot(rows, total, previous.sourceCount ?? previous.items.filter(i => !i.id.startsWith('alio-')).length);
   console.log(`Collected ${total} source records`);
   const now = new Date().toISOString();
   const items = [];
@@ -122,8 +122,11 @@ export async function sync() {
   items.push(...previous.items.filter(i => i.id.startsWith('alio-')).map(i => ({...i, verifiedAt:i.verifiedAt || previous.updatedAt})));
   const changes = changesBetween(previous.items, items);
   const hasChanges = changes.some(b => b.added.length || b.updated.length || b.removed.length);
-  const document = {...previous, updatedAt:now, sourceCount:total, items,
-    latestChanges:hasChanges ? {at:now,from:previous.updatedAt,branches:changes} : previous.latestChanges,
+  const completedAt = new Date().toISOString();
+  const lastSync = {at:completedAt,from:previous.updatedAt,before:previous.items.length,total:items.length,
+    added:changes.reduce((n,b) => n+b.added.length,0),updated:changes.reduce((n,b) => n+b.updated.length,0),removed:changes.reduce((n,b) => n+b.removed.length,0),branches:changes};
+  const document = {...previous, updatedAt:completedAt, sourceCount:total, items, lastSync,
+    latestChanges:hasChanges ? {at:completedAt,from:previous.updatedAt,branches:changes} : previous.latestChanges,
     notes:['공유누리 전체 검색과 공유누리 상세 페이지를 정기 수집합니다.','ZEUS 등 연계 자원은 공유누리 목록만 확인하며 예약 가능 여부는 원문에서 확인해야 합니다.','알리오플러스 단독 보완 항목은 항목별 확인일 기준입니다.','검토된 중복 주차장과 종료 교육은 제외합니다.']};
   await fs.writeFile(file + '.tmp', JSON.stringify(document, null, 2) + '\n');
   await fs.rename(file + '.tmp', file);
