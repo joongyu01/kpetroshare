@@ -1,14 +1,13 @@
-/* Keep content clickable throughout; movement only explains a change. */
-@keyframes soft-enter{from{opacity:.35;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-@keyframes soft-fade{from{opacity:.35}to{opacity:1}}
-@keyframes marker-focus{from{opacity:.45}to{opacity:1}}
-@media(prefers-reduced-motion:no-preference){
-  .map-intro,.national-map,.search-area{animation:soft-fade .28s ease-out}
-  .results>.item-card{animation:soft-enter .24s cubic-bezier(.2,.7,.3,1) backwards;animation-delay:calc(var(--card-order,0)*25ms)}
-  .site-stats[open]>.stats-content,.item-notice:not([hidden]){animation:soft-enter .24s ease-out}
-  .province{transition:fill .25s ease-in-out,stroke .25s ease-in-out}
-  .marker-label{transition:fill .25s ease-in-out,stroke .25s ease-in-out}
-  .marker-title,.marker-count-bg,.marker-count,.marker-halo{transition:fill .25s ease-in-out}
-  .map-marker.selected .marker-halo{animation:marker-focus .3s ease-out}
-  .type-chip,.item-card{transition:background-color .2s ease-out,border-color .2s ease-out,color .2s ease-out}
-}
+/* Keep controls clickable while their visual transition runs. */
+@keyframes soft-enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes soft-fade{from{opacity:0}to{opacity:1}}
+@keyframes marker-focus{from{opacity:.3}to{opacity:1}}
+.map-intro,.national-map,.search-area{animation:soft-fade .5s ease-out}
+.results>.item-card{animation:soft-enter .5s cubic-bezier(.22,1,.36,1) backwards;animation-delay:calc(var(--card-order,0)*45ms)}
+.site-stats[open]>.stats-content,.item-notice:not([hidden]),#library-dialog[open]{animation:soft-enter .5s cubic-bezier(.22,1,.36,1)}
+.province,.marker-label{transition:fill .5s ease-in-out,stroke .5s ease-in-out}
+.marker-title,.marker-count-bg,.marker-count,.marker-halo{transition:fill .5s ease-in-out}
+.map-marker{transition:opacity .5s ease}
+.map-marker.selected .marker-halo{animation:marker-focus .5s ease-out}
+.type-chip,.item-card{transition:background-color .5s ease-out,border-color .5s ease-out,color .5s ease-out}
+.map-reset{transition:background .5s ease,box-shadow .5s ease}

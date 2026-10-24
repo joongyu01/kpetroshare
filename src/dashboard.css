@@ -42,4 +42,4 @@ dialog{border:1px solid #fff;border-radius:22px;box-shadow:0 20px 80px #23392d25
 .map-reset{box-shadow:0 6px 22px #314a3009;transition:background .25s ease,box-shadow .25s ease}
 @media(max-width:1100px) and (min-width:761px){.map-stats{min-width:0;padding:12px 16px;gap:6px}.map-stats strong{font-size:21px}}
 @media(max-width:760px){.map-stats{min-width:0;max-width:125px;padding:12px;gap:9px;border-radius:19px}.map-stats strong{font-size:20px}}
-@media(prefers-reduced-motion:reduce){.province,.marker-halo,.marker-label,.map-reset{transition:none}}
+
