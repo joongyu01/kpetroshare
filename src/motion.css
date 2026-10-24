@@ -1,0 +1,14 @@
+/* Keep content clickable throughout; movement only explains a change. */
+@keyframes soft-enter{from{opacity:.35;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes soft-fade{from{opacity:.35}to{opacity:1}}
+@keyframes marker-focus{from{opacity:.45}to{opacity:1}}
+@media(prefers-reduced-motion:no-preference){
+  .map-intro,.national-map,.search-area{animation:soft-fade .28s ease-out}
+  .results>.item-card{animation:soft-enter .24s cubic-bezier(.2,.7,.3,1) backwards;animation-delay:calc(var(--card-order,0)*25ms)}
+  .site-stats[open]>.stats-content,.item-notice:not([hidden]){animation:soft-enter .24s ease-out}
+  .province{transition:fill .25s ease-in-out,stroke .25s ease-in-out}
+  .marker-label{transition:fill .25s ease-in-out,stroke .25s ease-in-out}
+  .marker-title,.marker-count-bg,.marker-count,.marker-halo{transition:fill .25s ease-in-out}
+  .map-marker.selected .marker-halo{animation:marker-focus .3s ease-out}
+  .type-chip,.item-card{transition:background-color .2s ease-out,border-color .2s ease-out,color .2s ease-out}
+}

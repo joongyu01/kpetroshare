@@ -1,3 +1,4 @@
+import {countUp} from './motion.js';
 import './stats.css';
 const escape = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const dateLabel = value => new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date(value));
@@ -12,6 +13,20 @@ export function renderStats(data) {
   panel.className='site-stats';panel.open=!matchMedia('(max-width:760px)').matches;
   panel.innerHTML=`<summary>업데이트 · 방문 통계 <span>${added?`+${added}개`:''}</span></summary><div class="stats-content"><p class="stats-meta"><strong>최근 동기화 완료 (한국시간)</strong><br>${escape(dateLabel(sync?.at || data.updatedAt))}</p><p class="sync-counts">${sync?`이번 실행 · 추가 <b>${sync.added}</b> · 변경 <b>${sync.updated}</b> · 삭제 <b>${sync.removed}</b>`:'이번 실행의 변경 건수는 다음 동기화부터 표시됩니다.'}</p><p class="stats-total">전체 <b>${data.items.length}개</b>${latest?` · 마지막 변경 때 추가 <b>${added}개</b>`:''}</p><div class="branch-chart">${featured.map(b=>`<div class="stats-row"><span>${escape(b.branch)}</span><div class="stats-track"><i style="width:${b.added.length/max*100}%"></i><i class="stats-modified" style="width:${b.updated.length/max*100}%"></i></div><small>+${b.added.length} / 갱신 ${b.updated.length}${b.removed.length?` / 삭제 ${b.removed.length}`:''}</small></div>`).join('') || '<p>최근 변경 내역이 없습니다.</p>'}</div><details class="stats-all"><summary>이번 동기화 본부별 내역</summary>${sync?.branches.map(b=>`<p>${escape(b.branch)} · 추가 ${b.added.length} / 갱신 ${b.updated.length} / 제외 ${b.removed.length}</p>`).join('') || ''}</details><p class="stats-meta">마지막 변경 그래프 · 초록 추가 / 회색 변경${latest?` · ${escape(dateLabel(latest.at))}`:''}</p><h3>일별 방문자 <small>최근 7일</small></h3><div id="visitor-chart"><p class="stats-meta">방문 통계를 불러오는 중입니다.</p></div></div>`;
   document.body.append(panel);
+  let counted=false;
+  const animateCounts=()=>{
+    if(!panel.open || counted)return;
+    counted=true;
+    panel.querySelectorAll('.stats-total b').forEach(el=>{
+      const value=parseInt(el.textContent,10);
+      el.setAttribute('aria-label',el.textContent);
+      const visual=document.createElement('span');visual.setAttribute('aria-hidden','true');
+      visual.textContent=el.textContent;el.replaceChildren(visual);
+      countUp(value,n=>{visual.textContent=n+'개';});
+    });
+  };
+  panel.addEventListener('toggle',animateCounts);
+  animateCounts();
   fetch('/data/traffic.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(traffic=>{
     const target=panel.querySelector('#visitor-chart');
     if(!traffic.updatedAt){target.innerHTML='<p class="stats-meta">방문 수집 시작 · 통계 집계 대기 중<br>수집 전 기록은 제공되지 않습니다.</p>';return;}
