@@ -95,9 +95,16 @@ try{
  renderSummary();render();try{const geo=await fetch('/data/korea.geojson');if(!geo.ok)throw Error('map');drawMap(await geo.json());render()}catch{$('#map-canvas').innerHTML='<p class="map-loading">지도를 불러오지 못했어요.<br>지역 목록에서 자원을 찾아보세요.</p>'}
 }catch{$('#results').innerHTML=`<div class="empty-state"><h3>목록을 불러오지 못했어요</h3><p>잠시 후 새로고침해주세요.</p><a href="${sourceURL}" target="_blank" rel="noopener noreferrer">공유누리 열기</a></div>`}
 
-// A survey becomes visible only after the owner supplies a published survey URL.
-fetch('/data/site-config.json').then(r=>r.ok?r.json():null).then(config=>{if(!config?.satisfactionUrl)return;const url=new URL(config.satisfactionUrl);if(url.protocol!=='https:')return;const a=document.createElement('a');a.href=url.href;a.target='_blank';a.rel='noopener noreferrer';a.className='survey-fab';a.textContent='만족도 설문 ↗';a.setAttribute('aria-label','개방자원 이용 만족도 설문 참여 (새 창)');document.body.append(a)}).catch(()=>{});
-
-
-
-
+// Survey data stays in Google Forms; only its public entry point is displayed here.
+fetch('/data/site-config.json').then(r=>r.ok?r.json():null).then(async config=>{
+ if(!config?.satisfactionUrl)return;
+ const url=new URL(config.satisfactionUrl);if(url.protocol!=='https:')return;
+ const menu=document.createElement('aside');menu.className='survey-menu';menu.setAttribute('aria-label','이용 만족도 설문');
+ const heading=document.createElement('strong');heading.textContent='이용 만족도 설문';
+ const qr=document.createElement('a');qr.href=url.href;qr.target='_blank';qr.rel='noopener noreferrer';qr.className='survey-qr';qr.setAttribute('aria-label','QR 또는 클릭으로 만족도 설문 열기 (새 창)');
+ qr.innerHTML=await QRCode.toString(url.href,{type:'svg',margin:4,width:120,color:{dark:'#183c32',light:'#ffffff'}});
+ qr.querySelector('svg').setAttribute('aria-hidden','true');
+ const link=document.createElement('a');link.href=url.href;link.target='_blank';link.rel='noopener noreferrer';link.className='survey-action';link.textContent='설문 참여하기 ↗';
+ const hint=document.createElement('small');hint.textContent='QR 스캔 또는 링크 클릭';
+ menu.append(heading,qr,link,hint);document.body.append(menu);
+}).catch(()=>{});
