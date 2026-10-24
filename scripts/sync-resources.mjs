@@ -1,3 +1,4 @@
+import {knownChangedAt} from '../src/resource-order.js';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {pathToFileURL} from 'node:url';
@@ -75,8 +76,11 @@ export function validateSnapshot(rows, total, oldCount) {
   assert.equal(new Set(rows.map(r => r.id)).size, total, 'Repeated pagination');
   assert(total >= oldCount * 0.8, 'Large decrease requires manual review; keeping previous data');
 }
+const comparable = i => JSON.stringify([i.name,i.branch,i.type,i.url,i.details,i.hours,i.image?.url,i.links,i.alio]);
+export function stampChanges(previous,items,at){
+  return items.map(item=>{const old=previous.items.find(p=>p.id===item.id);return {...item,changedAt:!old||comparable(old)!==comparable(item)?at:knownChangedAt(old,previous)};});
+}
 export function changesBetween(previous, items) {
-  const comparable = i => JSON.stringify([i.name,i.branch,i.type,i.url,i.details,i.hours,i.image?.url,i.links,i.alio]);
   return branches.map(b => {
     const before = previous.filter(i => i.branch === b.name), after = items.filter(i => i.branch === b.name);
     return {branch:b.name, before:before.length, total:after.length,
@@ -193,6 +197,7 @@ export async function sync() {
   const changes = changesBetween(previous.items, items);
   const hasChanges = changes.some(b => b.added.length || b.updated.length || b.removed.length);
   const completedAt = new Date().toISOString();
+  items = stampChanges(previous,items,completedAt);
   const lastSync = {at:completedAt,from:previous.updatedAt,before:previous.items.length,total:items.length,
     added:changes.reduce((n,b) => n+b.added.length,0),updated:changes.reduce((n,b) => n+b.updated.length,0),removed:changes.reduce((n,b) => n+b.removed.length,0),branches:changes};
   const document = {...previous, updatedAt:completedAt, sourceCount:total, alioSourceCount:alio.length, items, lastSync,
