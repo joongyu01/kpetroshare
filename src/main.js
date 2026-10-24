@@ -1,3 +1,4 @@
+import './panel-resize.js';
 import {sortResources,sortOptions,knownChangedAt} from './resource-order.js';
 import {renderStats,dateLabel} from './stats.js';
 import './style.css';

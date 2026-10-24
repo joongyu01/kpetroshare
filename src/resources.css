@@ -24,3 +24,16 @@
 .sort-control{display:flex;align-items:center;gap:7px;white-space:nowrap}.sort-control select{font:inherit;color:#345837;background:#fff;border:1px solid #d6e3cf;border-radius:7px;padding:6px 24px 6px 8px;cursor:pointer;max-width:160px}.sort-control select:focus-visible{outline:3px solid #43aa89;outline-offset:2px}.sort-note{width:100%;font-size:10px;color:#71847c;padding:0 16px 8px;margin:0}.result-summary{gap:8px;flex-wrap:wrap}
 
 .survey-menu{position:fixed;right:18px;bottom:16px;z-index:21;width:164px;padding:12px;display:flex;flex-direction:column;align-items:center;gap:6px;border:1px solid #d6e3dc;border-radius:14px;background:#fff;box-shadow:0 5px 24px #163f2820;color:#294637}.survey-menu>strong{font-size:12px}.survey-qr{display:block;line-height:0}.survey-qr svg{display:block;width:112px;height:112px}.survey-action{display:block;width:100%;padding:9px 5px;border-radius:8px;background:#537e2f;color:#fff;font-size:12px;text-align:center;font-weight:700}.survey-action:hover{background:#3e6421}.survey-menu small{font-size:9px;color:#63776b}.results{padding-bottom:230px}@media(max-width:760px){.survey-menu{right:10px;bottom:10px;width:140px;padding:9px;gap:4px}.survey-qr svg{width:92px;height:92px}.survey-menu>strong,.survey-action{font-size:11px}.site-footer{padding-bottom:200px}}
+
+#panel-divider{display:none}
+@media(min-width:761px){
+ .workspace{grid-template-columns:minmax(260px,var(--map-share,38fr)) 14px minmax(320px,var(--list-share,62fr));gap:0}
+ #panel-divider{display:flex;align-items:center;justify-content:center;cursor:col-resize;touch-action:none;outline:none;border-radius:7px}
+ #panel-divider:after{content:'';height:48px;width:4px;background:#a8bca2;border-radius:4px;transition:background .15s}
+ #panel-divider:hover,#panel-divider:focus-visible{background:#dbe9d5}
+ #panel-divider:hover:after,#panel-divider:focus-visible:after{background:#537e2f}
+ .resizing-panels,.resizing-panels *{cursor:col-resize!important;user-select:none!important}
+}
+
+.list-panel{container-type:inline-size}
+@container(max-width:620px){.results{grid-template-columns:1fr}}
