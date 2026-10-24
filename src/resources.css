@@ -37,3 +37,5 @@
 
 .list-panel{container-type:inline-size}
 @container(max-width:620px){.results{grid-template-columns:1fr}}
+
+.site-footer.site-footer{height:auto;flex-direction:column;align-items:stretch;gap:8px;padding-top:8px;padding-bottom:12px}.site-credits{text-align:center;color:#738b94;font-size:11px;line-height:1.7;font-weight:400}.site-credits p{margin:0}@media(max-width:760px){.site-footer.site-footer{padding-bottom:210px}.site-credits{font-size:10px}}
