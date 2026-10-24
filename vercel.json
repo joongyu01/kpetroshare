@@ -4,6 +4,12 @@
   "framework": "vite",
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "kpetroshare.joongyu.co.kr" }],
+      "destination": "https://share.petrodevlab.cloud/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "kpetroshare.joongyu.co.kr" }],
       "destination": "https://share.petrodevlab.cloud/:path*",
