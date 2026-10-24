@@ -13,6 +13,10 @@ export function renderStats(data) {
   panel.className='site-stats';
   panel.innerHTML=`<summary id="monthly-visitors">이번 달 홈페이지 방문 · 집계 중</summary><div class="stats-content"><h3>방문 상세</h3><p id="monthly-period" class="stats-meta"></p><h3>일별 방문자 <small>최근 7일</small></h3><div id="visitor-chart"><p class="stats-meta">방문 통계를 불러오는 중입니다.</p></div><h3>자원 업데이트</h3><p class="stats-meta"><strong>최근 동기화 완료 (한국시간)</strong><br>${escape(dateLabel(sync?.at || data.updatedAt))}</p><p class="sync-counts">${sync?`이번 실행 · 추가 <b>${sync.added}</b> · 변경 <b>${sync.updated}</b> · 삭제 <b>${sync.removed}</b>`:'이번 실행의 변경 건수는 다음 동기화부터 표시됩니다.'}</p><p class="stats-total">전체 <b>${data.items.length}개</b>${latest?` · 마지막 변경 때 추가 <b>${added}개</b>`:''}</p><div class="branch-chart">${featured.map(b=>`<div class="stats-row"><span>${escape(b.branch)}</span><div class="stats-track"><i style="width:${b.added.length/max*100}%"></i><i class="stats-modified" style="width:${b.updated.length/max*100}%"></i></div><small>+${b.added.length} / 갱신 ${b.updated.length}${b.removed.length?` / 삭제 ${b.removed.length}`:''}</small></div>`).join('') || '<p>최근 변경 내역이 없습니다.</p>'}</div><details class="stats-all"><summary>이번 동기화 본부별 내역</summary>${sync?.branches.map(b=>`<p>${escape(b.branch)} · 추가 ${b.added.length} / 갱신 ${b.updated.length} / 제외 ${b.removed.length}</p>`).join('') || ''}</details><p class="stats-meta">마지막 변경 그래프 · 초록 추가 / 회색 변경${latest?` · ${escape(dateLabel(latest.at))}`:''}</p></div>`;
   document.querySelector('.site-header').append(panel);
+  const setMonthlySummary=value=>{
+    panel.querySelector('#monthly-visitors').innerHTML=`<span class="monthly-label-desktop">이번 달 홈페이지 방문</span><span class="monthly-label-mobile">이번 달 방문</span> ${escape(value)}`;
+  };
+  setMonthlySummary('· 집계 중');
   document.addEventListener('click',event=>{if(!panel.contains(event.target))panel.open=false;});
   panel.addEventListener('keydown',event=>{if(event.key==='Escape'){panel.open=false;panel.querySelector('summary').focus();}});
   let counted=false;
@@ -33,10 +37,10 @@ export function renderStats(data) {
     const target=panel.querySelector('#visitor-chart');
     const month=new Date(Date.now()+9*3600000).toISOString().slice(0,7);
     const monthly=traffic.monthly;
-    panel.querySelector('#monthly-visitors').textContent=monthly?.month===month && Number.isInteger(monthly.visitors)?`이번 달 홈페이지 방문 ${monthly.visitors.toLocaleString('ko-KR')}명`:'이번 달 홈페이지 방문 · 집계 대기';
+    setMonthlySummary(monthly?.month===month && Number.isInteger(monthly.visitors)?`${monthly.visitors.toLocaleString('ko-KR')}명`:'· 집계 대기');
     panel.querySelector('#monthly-period').textContent=monthly?.month===month?`${monthly.since}부터 집계 · Vercel 방문자 기준 · 매일 갱신`:'이번 달 통계가 아직 집계되지 않았습니다.';
     if(!traffic.updatedAt){target.innerHTML='<p class="stats-meta">방문 수집 시작 · 통계 집계 대기 중<br>수집 전 기록은 제공되지 않습니다.</p>';return;}
     const max=Math.max(1,...traffic.days.map(d=>d.visitors||0));
     target.innerHTML=`<div class="visitor-bars">${traffic.days.map(d=>`<div aria-label="${escape(d.date)} ${d.visitors===null?'수집 전':d.visitors+'명'}"><b>${d.visitors===null?'–':d.visitors}</b><span style="height:${d.visitors===null?0:d.visitors/max*48}px"></span><small>${escape(d.date.slice(5).replace('-','/'))}</small></div>`).join('')}</div><p class="stats-meta">한국시간 · ${escape(dateLabel(traffic.updatedAt))} 집계${Date.now()-Date.parse(traffic.updatedAt)>36*3600000?' · 집계 지연':''}<br>${escape(traffic.startedAt.slice(5,10).replace('-','/'))}부터 수집 · 브라우저 기준 방문자 · ‘–’는 수집 전</p>`;
-  }).catch(()=>{panel.querySelector('#monthly-visitors').textContent='이번 달 홈페이지 방문 · 확인 불가';panel.querySelector('#visitor-chart').textContent='방문 통계를 불러오지 못했습니다.';});
+  }).catch(()=>{setMonthlySummary('· 확인 불가');panel.querySelector('#visitor-chart').textContent='방문 통계를 불러오지 못했습니다.';});
 }
