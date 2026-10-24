@@ -1,4 +1,5 @@
 import './panel-resize.js';
+import {setupSurveyDismiss} from './survey-dismiss.js';
 import {sortResources,sortOptions,knownChangedAt} from './resource-order.js';
 import {renderStats,dateLabel} from './stats.js';
 import './style.css';
@@ -102,10 +103,14 @@ fetch('/data/site-config.json').then(r=>r.ok?r.json():null).then(async config=>{
  const url=new URL(config.satisfactionUrl);if(url.protocol!=='https:')return;
  const menu=document.createElement('aside');menu.className='survey-menu';menu.setAttribute('aria-label','이용 만족도 설문');
  const heading=document.createElement('strong');heading.textContent='이용 만족도 설문';
+ const close=document.createElement('button');close.type='button';close.className='survey-close';close.textContent='×';close.setAttribute('aria-label','만족도 설문 메뉴 닫기');
+ const header=document.createElement('div');header.className='survey-heading';header.append(heading,close);
  const qr=document.createElement('a');qr.href=url.href;qr.target='_blank';qr.rel='noopener noreferrer';qr.className='survey-qr';qr.setAttribute('aria-label','QR 또는 클릭으로 만족도 설문 열기 (새 창)');
  qr.innerHTML=await QRCode.toString(url.href,{type:'svg',margin:4,width:120,color:{dark:'#183c32',light:'#ffffff'}});
  qr.querySelector('svg').setAttribute('aria-hidden','true');
  const link=document.createElement('a');link.href=url.href;link.target='_blank';link.rel='noopener noreferrer';link.className='survey-action';link.textContent='설문 참여하기 ↗';
  const hint=document.createElement('small');hint.textContent='QR 스캔 또는 링크 클릭';
- menu.append(heading,qr,link,hint);document.body.append(menu);
+ const snooze=document.createElement('label');snooze.className='survey-snooze';
+ const checkbox=document.createElement('input');checkbox.type='checkbox';snooze.append(checkbox,document.createTextNode('1시간 동안 보지 않기'));
+ menu.append(header,qr,link,hint,snooze);setupSurveyDismiss(menu,close,checkbox);document.body.append(menu);
 }).catch(()=>{});
