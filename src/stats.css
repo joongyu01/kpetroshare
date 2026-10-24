@@ -6,3 +6,10 @@
 .site-stats>.stats-content{max-height:310px}.stats-content>p{margin:4px 0}.stats-row{margin:6px 0;gap:2px 8px}.stats-content h3{margin:5px 0}.visitor-bars{height:73px}.stats-all summary{padding:2px 0;min-height:22px}
 
 .sync-counts{font-size:11px;padding:6px 8px;border-radius:6px;background:#eff6f1;line-height:1.6}
+
+.site-header{position:relative;z-index:25;flex-wrap:wrap;height:auto;min-height:82px}
+.site-header .site-stats{position:relative;left:auto;bottom:auto;width:auto;max-width:100%;border:0;border-radius:10px;background:#eff5e9;box-shadow:none;backdrop-filter:none;flex-shrink:0}
+.site-header .site-stats>summary{white-space:nowrap;color:#42652f;font-size:12px}
+.site-header .site-stats>.stats-content{position:absolute;right:0;top:calc(100% + 10px);width:340px;max-width:calc(100vw - 40px);max-height:min(510px,65vh);padding:14px;border:1px solid #d6e3dc;border-radius:14px;background:#fff;box-shadow:0 8px 28px #163f2826;box-sizing:border-box}
+.site-header .site-stats>summary:focus-visible{outline:3px solid #43aa89;outline-offset:2px}
+@media(max-width:1100px){.site-header.site-header{height:auto;flex-wrap:wrap}.site-header .site-stats{margin-left:auto}.site-header .site-stats>summary{font-size:11px;padding:8px 12px;min-height:36px}}
