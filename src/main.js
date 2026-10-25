@@ -91,7 +91,7 @@ for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener(
 updateIcons();
 try{
  const response=await fetch('/data/resources.json',{cache:'no-cache'});if(!response.ok)throw Error('resources');const data=await response.json();
- updatedAt=data.updatedAt;$('.site-footer span').textContent='목록 확인 '+dateLabel(updatedAt)+' · 이용 가능 여부는 제공기관에 확인해주세요.';for(const b of branches){b.empty=!data.items.some(i=>i.branch===b.name)}renderStats(data);
+ updatedAt=data.updatedAt;$('#map-updated').textContent='목록 확인 '+dateLabel(updatedAt);for(const b of branches){b.empty=!data.items.some(i=>i.branch===b.name)}renderStats(data);
  items=data.items.map(i=>({...i,changedAt:knownChangedAt(i,data),category:i.type==='물품'?categoryOf(i.name):i.type,onsite:i.type==='물품'||i.type==='연구·실험장비'?/외부 반출|현장 사용|현장사용|현재 설치된/.test(i.details.description+' '+i.details.notice):false}));
  const params=new URL(location.href).searchParams;state.branch=branches.find(b=>b.id===params.get('branch'))||null;state.type=types.includes(params.get('type'))?params.get('type'):'전체';state.query=params.get('q')||'';state.sort=Object.hasOwn(sortOptions,params.get('sort'))?params.get('sort'):'default';state.free=params.get('free')!=='0';state.all=params.get('view')==='all';$('#search').value=state.query;
  renderSummary();render();try{const geo=await fetch('/data/korea.geojson');if(!geo.ok)throw Error('map');drawMap(await geo.json());render()}catch{$('#map-canvas').innerHTML='<p class="map-loading">지도를 불러오지 못했어요.<br>지역 목록에서 자원을 찾아보세요.</p>'}
