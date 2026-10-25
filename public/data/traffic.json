@@ -1,40 +1,40 @@
 {
+  "startedAt": "2026-10-23T00:00:00+09:00",
+  "updatedAt": "2026-10-25T01:17:13.812Z",
   "timezone": "Asia/Seoul",
   "days": [
     {
-      "visitors": null,
-      "date": "2026-10-18"
+      "date": "2026-10-19",
+      "visitors": null
     },
     {
-      "visitors": null,
-      "date": "2026-10-19"
+      "date": "2026-10-20",
+      "visitors": null
     },
     {
-      "visitors": null,
-      "date": "2026-10-20"
+      "date": "2026-10-21",
+      "visitors": null
     },
     {
-      "visitors": null,
-      "date": "2026-10-21"
+      "date": "2026-10-22",
+      "visitors": null
     },
     {
-      "visitors": null,
-      "date": "2026-10-22"
+      "date": "2026-10-23",
+      "visitors": 3
     },
     {
-      "visitors": 3,
-      "date": "2026-10-23"
+      "date": "2026-10-24",
+      "visitors": 10
     },
     {
-      "visitors": 1,
-      "date": "2026-10-24"
+      "date": "2026-10-25",
+      "visitors": 7
     }
   ],
-  "startedAt": "2026-10-23T00:00:00+09:00",
   "monthly": {
     "month": "2026-10",
     "since": "2026-10-23",
-    "visitors": 4
-  },
-  "updatedAt": "2026-10-24T12:34:35.3871677+00:00"
+    "visitors": 20
+  }
 }
