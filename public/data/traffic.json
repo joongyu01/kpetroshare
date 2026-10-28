@@ -1,12 +1,8 @@
 {
   "startedAt": "2026-10-23T00:00:00+09:00",
-  "updatedAt": "2026-10-27T02:10:53.064Z",
+  "updatedAt": "2026-10-28T02:24:17.423Z",
   "timezone": "Asia/Seoul",
   "days": [
-    {
-      "date": "2026-10-21",
-      "visitors": null
-    },
     {
       "date": "2026-10-22",
       "visitors": null
@@ -29,12 +25,16 @@
     },
     {
       "date": "2026-10-27",
+      "visitors": 1
+    },
+    {
+      "date": "2026-10-28",
       "visitors": 0
     }
   ],
   "monthly": {
     "month": "2026-10",
     "since": "2026-10-23",
-    "visitors": 23
+    "visitors": 24
   }
 }
